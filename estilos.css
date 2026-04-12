@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+	font-family: Arial;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    border: 3px solid black;
+}
+
+h2 {
+    color: purple;
+}
+
+ul {
+    background-color: white;
+}
