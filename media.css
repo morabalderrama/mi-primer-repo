@@ -1,0 +1,99 @@
+body{
+margin:0;
+font-family:Georgia, serif;
+background:#9ead99;
+}
+
+/* titulo superior */
+header{
+padding:20px;
+}
+
+header h1{
+margin:0;
+font-size:50px;
+}
+
+
+/* escritorio */
+.contenedor{
+display:flex;
+align-items:flex-start;
+gap:20px;
+padding:20px;
+}
+
+
+/* menu rojo */
+nav{
+background:#d63b0d;
+width:120px;
+height:90px;
+padding:20px;
+}
+
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+color:white;
+line-height:1.6;
+}
+
+
+/* caja central */
+.principal{
+background:#e8e7b8;
+width:420px;
+padding:20px;
+}
+
+
+/* caja derecha */
+aside{
+background:#d4cbab;
+width:170px;
+min-height:320px;
+padding:20px;
+}
+
+
+
+/* VERSION MOVIL */
+
+@media (max-width:800px){
+
+.contenedor{
+display:block;
+padding:0;
+}
+
+nav{
+width:auto;
+height:auto;
+margin:0;
+background:#efc562;
+border-top:1px solid black;
+border-bottom:1px solid black;
+}
+
+nav ul{
+color:black;
+padding:20px;
+}
+
+.principal{
+width:auto;
+background:#e8e7b8;
+margin:0;
+border-bottom:1px solid black;
+}
+
+aside{
+width:auto;
+min-height:auto;
+margin:0;
+border-bottom:1px solid black;
+}
+
+}
