@@ -1,0 +1,70 @@
+body{
+margin:0;
+font-family:Arial;
+background-color:#ffe4ec;
+}
+
+h1{
+color:#d63384;
+}
+
+.holder{
+max-width:960px;
+margin:auto;
+}
+
+/* HEADER */
+.encabezado{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.encabezado img{
+width:150px;
+}
+
+/* MENU */
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+padding:0;
+}
+
+nav a{
+text-decoration:none;
+color:black;
+}
+
+/* COLUMNAS */
+.columnas{
+display:flex;
+gap:20px;
+}
+
+.columnas img{
+width:200px;
+}
+
+/* PERSONA */
+.persona{
+border:1px solid black;
+padding:10px;
+margin:10px 0;
+}
+
+.persona img{
+width:250px;
+}
+
+/* SERVICIOS */
+.servicio{
+border:1px solid black;
+padding:10px;
+margin:10px 0;
+}
+
+.servicio img{
+width:200px;
+}
